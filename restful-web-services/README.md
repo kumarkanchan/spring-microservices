@@ -253,7 +253,7 @@ foreign key (user_id) references user;
     </item>
     <item>
         <id>4</id>
-        <name>Ranga</name>
+        <name>Vikas</name>
         <birthDate>2017-07-19T10:25:20.450+0000</birthDate>
     </item>
 </List>
@@ -267,7 +267,7 @@ foreign key (user_id) references user;
 
 ```xml
 <item>
-        <name>Ranga</name>
+        <name>Vikas</name>
         <birthDate>2017-07-19T10:25:20.450+0000</birthDate>
 </item>
 ```
