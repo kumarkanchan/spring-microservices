@@ -168,7 +168,7 @@ foreign key (user_id) references user;
 ### POST http://localhost:8080/users
 ```json
 {
-    "name": "Ranga",
+    "name": "Vikas Rathore",
     "birthDate": "2000-07-19T04:29:24.054+0000"
 }
 ```
@@ -323,7 +323,7 @@ foreign key (user_id) references user;
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.in28minutes.rest.webservices</groupId>
+	<groupId>com.rest.webservices</groupId>
 	<artifactId>restful-web-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -465,10 +465,10 @@ foreign key (user_id) references user;
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/exception/CustomizedResponseEntityExceptionHandler.java
+### /src/main/java/com/rest/webservices/exception/CustomizedResponseEntityExceptionHandler.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.exception;
+package com.rest.webservices.exception;
 
 import java.util.Date;
 
@@ -513,10 +513,10 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/exception/ExceptionResponse.java
+### /src/main/java/com/rest/webservices/exception/ExceptionResponse.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.exception;
+package com.rest.webservices.exception;
 
 import java.util.Date;
 
@@ -548,10 +548,10 @@ public class ExceptionResponse {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/filtering/FilteringController.java
+### /src/main/java/com/rest/webservices/filtering/FilteringController.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.filtering;
+package com.rest.webservices.filtering;
 
 import java.util.Arrays;
 import java.util.List;
@@ -604,10 +604,10 @@ public class FilteringController {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/filtering/SomeBean.java
+### /src/main/java/com/rest/webservices/filtering/SomeBean.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.filtering;
+package com.rest.webservices.filtering;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 
@@ -655,10 +655,10 @@ public class SomeBean {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/helloworld/HelloWorldBean.java
+### /src/main/java/com/rest/webservices/HelloWorldBean.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.helloworld;
+package com.rest.webservices;
 
 public class HelloWorldBean {
 
@@ -685,10 +685,10 @@ public class HelloWorldBean {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/helloworld/HelloWorldController.java
+### /src/main/java/com/rest/webservices/HelloWorldController.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.helloworld;
+package com.rest.webservices;
 
 import java.util.Locale;
 
@@ -733,10 +733,10 @@ public class HelloWorldController {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
+### /src/main/java/com/rest/webservices/RestfulWebServicesApplication.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices;
+package com.rest.webservices;
 
 import java.util.Locale;
 
@@ -763,10 +763,10 @@ public class RestfulWebServicesApplication {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/SwaggerConfig.java
+### /src/main/java/com/rest/webservices/SwaggerConfig.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices;
+package com.rest.webservices;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -808,10 +808,10 @@ public class SwaggerConfig {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/Post.java
+### /src/main/java/com/rest/webservices/user/Post.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -866,10 +866,10 @@ public class Post {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/PostRepository.java
+### /src/main/java/com/rest/webservices/user/PostRepository.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -881,10 +881,10 @@ public interface PostRepository extends JpaRepository<Post, Integer>{
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/User.java
+### /src/main/java/com/rest/webservices/user/User.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import java.util.Date;
 import java.util.List;
@@ -970,10 +970,10 @@ public class User {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserDaoService.java
+### /src/main/java/com/rest/webservices/user/UserDaoService.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -1032,10 +1032,10 @@ public class UserDaoService {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserJPAResource.java
+### /src/main/java/com/rest/webservices/user/UserJPAResource.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
@@ -1152,10 +1152,10 @@ public class UserJPAResource {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserNotFoundException.java
+### /src/main/java/com/rest/webservices/user/UserNotFoundException.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -1169,10 +1169,10 @@ public class UserNotFoundException extends RuntimeException {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserRepository.java
+### /src/main/java/com/rest/webservices/user/UserRepository.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -1184,10 +1184,10 @@ public interface UserRepository extends JpaRepository<User, Integer>{
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserResource.java
+### /src/main/java/com/rest/webservices/user/UserResource.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+package com.rest.webservices.user;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
@@ -1274,10 +1274,10 @@ public class UserResource {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/Name.java
+### /src/main/java/com/rest/webservices/versioning/Name.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+package com.rest.webservices.versioning;
 
 public class Name {
 	private String firstName;
@@ -1312,10 +1312,10 @@ public class Name {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonV1.java
+### /src/main/java/com/rest/webservices/versioning/PersonV1.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+package com.rest.webservices.versioning;
 
 public class PersonV1 {
 	private String name;
@@ -1342,10 +1342,10 @@ public class PersonV1 {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonV2.java
+### /src/main/java/com/rest/webservices/versioning/PersonV2.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+package com.rest.webservices.versioning;
 
 public class PersonV2 {
 	private Name name;
@@ -1371,10 +1371,10 @@ public class PersonV2 {
 ```
 ---
 
-### /src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonVersioningController.java
+### /src/main/java/com/rest/webservices/versioning/PersonVersioningController.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+package com.rest.webservices.versioning;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -1473,10 +1473,10 @@ good.morning.message=Goede Morgen
 ```
 ---
 
-### /src/test/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplicationTests.java
+### /src/test/java/com/rest/webservices/RestfulWebServicesApplicationTests.java
 
 ```java
-package com.in28minutes.rest.webservices.restfulwebservices;
+package com.rest.webservices;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
