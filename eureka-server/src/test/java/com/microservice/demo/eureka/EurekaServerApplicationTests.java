@@ -1,4 +1,4 @@
-package com.microservice.demo.apigateway;
+package com.microservice.demo.eureka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
