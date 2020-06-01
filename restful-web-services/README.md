@@ -1,110 +1,119 @@
-RESTful Web Services with Spring and Spring Boot
-Building RESTful web services with Spring Boot is fun. In this course, we will discover why Spring, Spring MVC and Spring Boot is becoming the best framework combination to develop RESTful web services.
+# RESTful Web Services with Spring and Spring Boot
+
+Building RESTful web services with Spring Boot is fun. In this course, Spring MVC and Spring Boot is becoming the best framework combination to develop RESTful web services. 
 
 You will learn
-•	What is a RESTful Web Service?
-•	How to implement RESTful Web Services with Spring and Spring Boot?
-•	What are the best practices in designing RESTful Web Services?
-•	How to design Resources and GET, POST and DELETE operations?
-•	How to implement Validation for RESTful Web Services?
-•	How to implement Exception Handling for RESTful Web Services?
-•	What is HATEOAS? How to implement HATEOAS for a Resource?
-•	What are the different approach in versioning RESTful Services?
-•	How to use Postman to execute RESTful Service Requests?
-•	How to implement basic authentication with Spring Security?
-•	How to implement filtering for RESTful Services?
-•	How to monitor RESTful Services with Spring Boot Actuator?
-•	How to document RESTful Web Services with Swagger?
-•	How to connect RESTful Services to a backend with JPA?
+- What is a RESTful Web Service? 
+- How to implement RESTful Web Services with Spring and Spring Boot?
+- What are the best practices in designing RESTful Web Services? 
+- How to design Resources and GET, POST and DELETE operations?
+- How to implement Validation for RESTful Web Services? 
+- How to implement Exception Handling for RESTful Web Services? 
+- What is HATEOAS? How to implement HATEOAS for a Resource?
+- What are the different approach in versioning RESTful Services?
+- How to use Postman to execute RESTful Service Requests?
+- How to implement basic authentication with Spring Security?
+- How to implement filtering for RESTful Services?
+- How to monitor RESTful Services with Spring Boot Actuator?
+- How to document RESTful Web Services with Swagger?
+- How to connect RESTful Services to a backend with JPA?
 
-Steps
-Basics of RESTful Services
-•	Step 01 - Initializing a RESTful Services Project with Spring Boot
-•	Step 02 - Understanding the RESTful Services we would create in this course
-•	Step 03 - Creating a Hello World Service
-•	Step 04 - Enhancing the Hello World Service to return a Bean
-•	Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet - What's happening in the background?
-•	Step 06 - Enhancing the Hello World Service with a Path Variable
-•	Step 07 - Creating User Bean and User Service
-•	Step 08 - Implementing GET Methods for User Resource
-•	Step 09 - Implementing POST Method to create User Resource
-•	Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location URI
-•	Step 11 - Implementing Exception Handling - 404 Resource Not Found
-•	Step 12 - Implementing Generic Exception Handling for all Resources
-•	Step 13 - Exercise : User Post Resource and Exception Handling
-•	Step 14 - Implementing DELETE Method to delete a User Resource
-•	Step 15 - Implementing Validations for RESTful Services
-•	Step 16 - Implementing HATEOAS for RESTful Services
+## Steps
 
-Advanced RESTful Service Features
-•	Step 17 - Overview of Advanced RESTful Service Features
-•	Step 18 - Internationalization for RESTful Services
-•	Step 19 - Content Negotiation - Implementing Support for XML
-•	Step 20 - Configuring Auto Generation of Swagger Documentation
-•	Step 21 - Introduction to Swagger Documentation Format
-•	Step 22 - Enhancing Swagger Documentation with Custom Annotations
-•	Step 23 - Monitoring APIs with Spring Boot Actuator
-•	Step 24 - Implementing Static Filtering for RESTful Service
-•	Step 25 - Implementing Dynamic Filtering for RESTful Service
-•	Step 26 - Versioning RESTful Services - Basic Approach with URIs
-•	Step 27 - Versioning RESTful Services - Header and Content Negotiation Approaches
-•	Step 28 - Implementing Basic Authentication with Spring Security
+### Basics of RESTful Services
+- Step 01 - Initializing a RESTful Services Project with Spring Boot
+- Step 02 - Understanding the RESTful Services we would create in this course
+- Step 03 - Creating a Hello World Service
+- Step 04 - Enhancing the Hello World Service to return a Bean
+- Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet - What's happening in the background?
+- Step 06 - Enhancing the Hello World Service with a Path Variable
+- Step 07 - Creating User Bean and User Service
+- Step 08 - Implementing GET Methods for User Resource
+- Step 09 - Implementing POST Method to create User Resource
+- Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location URI
+- Step 11 - Implementing Exception Handling - 404 Resource Not Found
+- Step 12 - Implementing Generic Exception Handling for all Resources
+- Step 13 - Exercise : User Post Resource and Exception Handling
+- Step 14 - Implementing DELETE Method to delete a User Resource
+- Step 15 - Implementing Validations for RESTful Services
+- Step 16 - Implementing HATEOAS for RESTful Services
 
-Connecting RESTful Service to JPA
-•	Step 29 - Overview of Connecting RESTful Service to JPA
-•	Step 30 - Creating User Entity and some test data
-•	Step 31 - Updating GET methods on User Resource to use JPA
-•	Step 32 - Updating POST and DELETE methods on User Resource to use JPA
-•	Step 33 - Creating Post Entity and Many to One Relationship with User Entity
-•	Step 34 - Implementing a GET service to retrieve all Posts of a User
-•	Step 35 - Implementing a POST service to create a Post for a User
+### Advanced RESTful Service Features
+- Step 17 - Overview of Advanced RESTful Service Features
+- Step 18 - Internationalization for RESTful Services
+- Step 19 - Content Negotiation - Implementing Support for XML
+- Step 20 - Configuring Auto Generation of Swagger Documentation
+- Step 21 - Introduction to Swagger Documentation Format
+- Step 22 - Enhancing Swagger Documentation with Custom Annotations
+- Step 23 - Monitoring APIs with Spring Boot Actuator
+- Step 24 - Implementing Static Filtering for RESTful Service
+- Step 25 - Implementing Dynamic Filtering for RESTful Service
+- Step 26 - Versioning RESTful Services - Basic Approach with URIs
+- Step 27 - Versioning RESTful Services - Header and Content Negotiation Approaches
+- Step 28 - Implementing Basic Authentication with Spring Security
 
-What You Will Need?
-We will help you install
-•	Java 8
-•	Eclipse
-•	Maven
-•	Embedded Tomcat
-•	Postman REST Services Client
-Useful Links
-•	POSTMAN - http://www.getpostman.com
-Links from course examples
-•	Basic Resources
-o	http://localhost:8080/hello-world
-o	http://localhost:8080/hello-world-bean
-o	http://localhost:8080/hello-world/path-variable/Ranga
-o	http://localhost:8080/users/
-o	http://localhost:8080/users/1
-•	JPA Resources
-o	http://localhost:8080/jpa/users/
-o	http://localhost:8080/jpa/users/1
-o	http://localhost:8080/jpa/users/10001/posts
-•	Filtering
-o	http://localhost:8080/filtering
-o	http://localhost:8080/filtering-list
-•	Actuator
-o	http://localhost:8080/actuator
-•	Versioning
-o	http://localhost:8080/v1/person
-o	http://localhost:8080/v2/person
-o	http://localhost:8080/person/param
-	params=[version=1]
-o	http://localhost:8080/person/param
-	params=[version=2]
-o	http://localhost:8080/person/header
-	headers=[X-API-VERSION=1]
-o	http://localhost:8080/person/header
-	headers=[X-API-VERSION=2]
-o	http://localhost:8080/person/produces
-	produces=[application/vnd.company.app-v1+json]
-o	http://localhost:8080/person/produces
-	produces=[application/vnd.company.app-v2+json]
-•	Swagger
-o	http://localhost:8080/swagger-ui.html
-o	http://localhost:8080/v2/api-docs
-•	H2-Console
-o	http://localhost:8080/h2-console
-Table Structure
+### Connecting RESTful Service to JPA
+- Step 29 - Overview of Connecting RESTful Service to JPA
+- Step 30 - Creating User Entity and some test data
+- Step 31 - Updating GET methods on User Resource to use JPA
+- Step 32 - Updating POST and DELETE methods on User Resource to use JPA
+- Step 33 - Creating Post Entity and Many to One Relationship with User Entity
+- Step 34 - Implementing a GET service to retrieve all Posts of a User
+- Step 35 - Implementing a POST service to create a Post for a User
+
+## What You Will Need?
+
+We will help you install 
+- Java 8
+- Eclipse
+- Maven
+- Embedded Tomcat
+- Postman REST Services Client
+
+## Useful Links
+
+- POSTMAN - http://www.getpostman.com
+
+### Links from course examples
+- Basic Resources
+  - http://localhost:8080/hello-world
+  - http://localhost:8080/hello-world-bean
+  - http://localhost:8080/hello-world/path-variable/Ranga
+  - http://localhost:8080/users/
+  - http://localhost:8080/users/1
+- JPA Resources
+  - http://localhost:8080/jpa/users/
+  - http://localhost:8080/jpa/users/1
+  - http://localhost:8080/jpa/users/10001/posts
+- Filtering
+  - http://localhost:8080/filtering
+  - http://localhost:8080/filtering-list
+- Actuator
+  - http://localhost:8080/actuator
+- Versioning
+  - http://localhost:8080/v1/person
+  - http://localhost:8080/v2/person
+  - http://localhost:8080/person/param
+     - params=[version=1]
+  - http://localhost:8080/person/param
+     - params=[version=2]
+  - http://localhost:8080/person/header
+     - headers=[X-API-VERSION=1]
+  - http://localhost:8080/person/header
+     - headers=[X-API-VERSION=2]
+  - http://localhost:8080/person/produces
+     - produces=[application/vnd.company.app-v1+json]
+  - http://localhost:8080/person/produces
+  	 - produces=[application/vnd.company.app-v2+json]
+- Swagger
+  - http://localhost:8080/swagger-ui.html
+  - http://localhost:8080/v2/api-docs
+- H2-Console
+  - http://localhost:8080/h2-console
+
+## Table Structure
+
+```sql
 create table user (
 id integer not null, 
 birth_date timestamp, 
@@ -122,8 +131,12 @@ primary key (id)
 alter table post 
 add constraint post_to_user_foreign_key
 foreign key (user_id) references user;
-Example Requests
-GET http://localhost:8080/users
+```
+
+## Example Requests
+
+### GET http://localhost:8080/users
+```json
 [
     {
         "id": 1,
@@ -141,20 +154,30 @@ GET http://localhost:8080/users
         "birthDate": "2017-07-19T04:40:20.796+0000"
     }
 ]
-GET http://localhost:8080/users/1
+```
+
+### GET http://localhost:8080/users/1
+```json
 {
     "id": 1,
     "name": "Adam",
     "birthDate": "2017-07-19T04:40:20.796+0000"
 }
-POST http://localhost:8080/users
+```
+
+### POST http://localhost:8080/users
+```json
 {
-    "name": "Ranga",
+    "name": "Vikas Rathore",
     "birthDate": "2000-07-19T04:29:24.054+0000"
 }
-GET http://localhost:8080/users/1000
-•	Get request to a non existing resource.
-•	The response shows default error message structure auto configured by Spring Boot.
+```
+
+### GET http://localhost:8080/users/1000
+- Get request to a non existing resource. 
+- The response shows default error message structure auto configured by Spring Boot.
+
+```json
 {
     "timestamp": "2017-07-19T05:28:37.534+0000",
     "status": 404,
@@ -162,27 +185,42 @@ GET http://localhost:8080/users/1000
     "message": "id-500",
     "path": "/users/500"
 }
-GET http://localhost:8080/users/1000
-•	Get request to a non existing resource.
-•	The response shows a Customized Message Structure
+```
+
+### GET http://localhost:8080/users/1000
+- Get request to a non existing resource. 
+- The response shows a Customized Message Structure
+```json
 {
     "timestamp": "2017-07-19T05:31:01.961+0000",
     "message": "id-500",
     "details": "Any details you would want to add"
 }
-POST http://localhost:8080/users with Validation Errors
-Request
+```
+
+### POST http://localhost:8080/users with Validation Errors
+
+#### Request
+
+```json
 {
     "name": "R",
     "birthDate": "2000-07-19T04:29:24.054+0000"
 }
-Response - 400 Bad Request
+```
+
+#### Response - 400 Bad Request
+
+```json
 {
     "timestamp": "2017-07-19T09:00:27.912+0000",
     "message": "Validation Failed",
     "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'user' on field 'name': rejected value [R]; codes [Size.user.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.name,name]; arguments []; default message [name],2147483647,2]; default message [Name should have atleast 2 characters]"
 }
-GET http://localhost:8080/users/1 with HATEOAS
+```
+
+### GET http://localhost:8080/users/1 with HATEOAS
+```json
 {
     "id": 1,
     "name": "Adam",
@@ -193,9 +231,15 @@ GET http://localhost:8080/users/1 with HATEOAS
         }
     }
 }
-XML Representation of Resources
-GET http://localhost:8080/users
-•	Accept application/xml
+```
+
+### XML Representation of Resources
+
+#### GET http://localhost:8080/users
+
+- Accept application/xml
+
+```xml
 <List>
     <item>
         <id>2</id>
@@ -209,58 +253,77 @@ GET http://localhost:8080/users
     </item>
     <item>
         <id>4</id>
-        <name>Ranga</name>
+        <name>Vikas</name>
         <birthDate>2017-07-19T10:25:20.450+0000</birthDate>
     </item>
 </List>
-POST http://localhost:8080/users
-•	Accept : application/xml
-•	Content-Type : application/xml
-Request
+```
+
+#### POST http://localhost:8080/users
+- Accept : application/xml
+- Content-Type : application/xml
+
+##### Request
+
+```xml
 <item>
-        <name>Ranga</name>
+        <name>Vikas</name>
         <birthDate>2017-07-19T10:25:20.450+0000</birthDate>
 </item>
-Response
-•	Status - 201 Created
-Versioning
-•	Media type versioning (a.k.a “content negotiation” or “accept header”)
-o	GitHub
-•	(Custom) headers versioning
-o	Microsoft
-•	URI Versioning
-o	Twitter
-•	Request Parameter versioning
-o	Amazon
-•	Factors
-•	URI Pollution
-•	Misuse of HTTP Headers
-•	Caching
-•	Can we execute the request on the browser?
-•	API Documentation
-•	No Perfect Solution
-More
-•	https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown
-•	http://urthen.github.io/2013/05/09/ways-to-version-your-api/
-•	http://stackoverflow.com/questions/389169/best-practices-for-api-versioning
-•	http://www.lexicalscope.com/blog/2012/03/12/how-are-rest-apis-versioned/
-•	https://www.3scale.net/2016/06/api-versioning-methods-a-brief-reference/
-Resources and URI Mappings
-•	Retrieve all Users - GET /users
-•	Create a User - POST /users
-•	Retrieve one User - GET /users/{id} -> /users/1
-•	Delete a User - DELETE /users/{id} -> /users/1
-•	Retrieve all posts for a User - GET /users/{id}/posts
-•	Create a posts for a User - POST /users/{id}/posts
-•	Retrieve details of a post - GET /users/{id}/posts/{post_id}
-Complete Code Example
-/pom.xml
+```
+
+##### Response
+- Status - 201 Created
+
+
+### Versioning
+ - Media type versioning (a.k.a “content negotiation” or “accept header”)
+   - GitHub
+ - (Custom) headers versioning
+   - Microsoft
+ - URI Versioning
+   - Twitter
+ - Request Parameter versioning 
+   - Amazon
+ - Factors
+  - URI Pollution
+  - Misuse of HTTP Headers
+  - Caching
+  - Can we execute the request on the browser?
+  - API Documentation
+ - No Perfect Solution 
+
+#### More
+- https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown
+- http://urthen.github.io/2013/05/09/ways-to-version-your-api/
+- http://stackoverflow.com/questions/389169/best-practices-for-api-versioning
+- http://www.lexicalscope.com/blog/2012/03/12/how-are-rest-apis-versioned/
+- https://www.3scale.net/2016/06/api-versioning-methods-a-brief-reference/
+
+## Resources and URI Mappings
+
+- Retrieve all Users      - GET  /users
+- Create a User           - POST /users
+- Retrieve one User       - GET  /users/{id} -> /users/1   
+- Delete a User           - DELETE /users/{id} -> /users/1
+
+- Retrieve all posts for a User - GET /users/{id}/posts 
+- Create a posts for a User - POST /users/{id}/posts
+- Retrieve details of a post - GET /users/{id}/posts/{post_id}
+
+
+## Complete Code Example
+
+
+### /pom.xml
+
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.in28minutes.rest.webservices</groupId>
+	<groupId>com.rest.webservices</groupId>
 	<artifactId>restful-web-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -399,9 +462,13 @@ Complete Code Example
 
 
 </project>
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/exception/CustomizedResponseEntityExceptionHandler.java
-package com.in28minutes.rest.webservices.restfulwebservices.exception;
+```
+---
+
+### /src/main/java/com/rest/webservices/exception/CustomizedResponseEntityExceptionHandler.java
+
+```java
+package com.rest.webservices.exception;
 
 import java.util.Date;
 
@@ -443,9 +510,13 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 		return new ResponseEntity(exceptionResponse, HttpStatus.BAD_REQUEST);
 	}	
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/exception/ExceptionResponse.java
-package com.in28minutes.rest.webservices.restfulwebservices.exception;
+```
+---
+
+### /src/main/java/com/rest/webservices/exception/ExceptionResponse.java
+
+```java
+package com.rest.webservices.exception;
 
 import java.util.Date;
 
@@ -474,9 +545,13 @@ public class ExceptionResponse {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/filtering/FilteringController.java
-package com.in28minutes.rest.webservices.restfulwebservices.filtering;
+```
+---
+
+### /src/main/java/com/rest/webservices/filtering/FilteringController.java
+
+```java
+package com.rest.webservices.filtering;
 
 import java.util.Arrays;
 import java.util.List;
@@ -526,9 +601,13 @@ public class FilteringController {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/filtering/SomeBean.java
-package com.in28minutes.rest.webservices.restfulwebservices.filtering;
+```
+---
+
+### /src/main/java/com/rest/webservices/filtering/SomeBean.java
+
+```java
+package com.rest.webservices.filtering;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 
@@ -573,9 +652,13 @@ public class SomeBean {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/helloworld/HelloWorldBean.java
-package com.in28minutes.rest.webservices.restfulwebservices.helloworld;
+```
+---
+
+### /src/main/java/com/rest/webservices/HelloWorldBean.java
+
+```java
+package com.rest.webservices;
 
 public class HelloWorldBean {
 
@@ -599,9 +682,13 @@ public class HelloWorldBean {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/helloworld/HelloWorldController.java
-package com.in28minutes.rest.webservices.restfulwebservices.helloworld;
+```
+---
+
+### /src/main/java/com/rest/webservices/HelloWorldController.java
+
+```java
+package com.rest.webservices;
 
 import java.util.Locale;
 
@@ -643,9 +730,13 @@ public class HelloWorldController {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
-package com.in28minutes.rest.webservices.restfulwebservices;
+```
+---
+
+### /src/main/java/com/rest/webservices/RestfulWebServicesApplication.java
+
+```java
+package com.rest.webservices;
 
 import java.util.Locale;
 
@@ -669,9 +760,13 @@ public class RestfulWebServicesApplication {
 		return localeResolver;
 	}
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/SwaggerConfig.java
-package com.in28minutes.rest.webservices.restfulwebservices;
+```
+---
+
+### /src/main/java/com/rest/webservices/SwaggerConfig.java
+
+```java
+package com.rest.webservices;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -710,9 +805,13 @@ public class SwaggerConfig {
 				.consumes(DEFAULT_PRODUCES_AND_CONSUMES);
 	}
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/Post.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/Post.java
+
+```java
+package com.rest.webservices.user;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -764,9 +863,13 @@ public class Post {
 	}
 	
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/PostRepository.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/PostRepository.java
+
+```java
+package com.rest.webservices.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -775,9 +878,13 @@ import org.springframework.stereotype.Repository;
 public interface PostRepository extends JpaRepository<Post, Integer>{
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/User.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/User.java
+
+```java
+package com.rest.webservices.user;
 
 import java.util.Date;
 import java.util.List;
@@ -860,9 +967,13 @@ public class User {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserDaoService.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/UserDaoService.java
+
+```java
+package com.rest.webservices.user;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -918,9 +1029,13 @@ public class UserDaoService {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserJPAResource.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/UserJPAResource.java
+
+```java
+package com.rest.webservices.user;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
@@ -1034,9 +1149,13 @@ public class UserJPAResource {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserNotFoundException.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/UserNotFoundException.java
+
+```java
+package com.rest.webservices.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -1047,9 +1166,13 @@ public class UserNotFoundException extends RuntimeException {
 		super(message);
 	}
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserRepository.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/UserRepository.java
+
+```java
+package com.rest.webservices.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -1058,9 +1181,13 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends JpaRepository<User, Integer>{
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/user/UserResource.java
-package com.in28minutes.rest.webservices.restfulwebservices.user;
+```
+---
+
+### /src/main/java/com/rest/webservices/user/UserResource.java
+
+```java
+package com.rest.webservices.user;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
@@ -1144,9 +1271,13 @@ public class UserResource {
 		
 	}
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/Name.java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+```
+---
+
+### /src/main/java/com/rest/webservices/versioning/Name.java
+
+```java
+package com.rest.webservices.versioning;
 
 public class Name {
 	private String firstName;
@@ -1178,9 +1309,13 @@ public class Name {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonV1.java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+```
+---
+
+### /src/main/java/com/rest/webservices/versioning/PersonV1.java
+
+```java
+package com.rest.webservices.versioning;
 
 public class PersonV1 {
 	private String name;
@@ -1204,9 +1339,13 @@ public class PersonV1 {
 
 	
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonV2.java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+```
+---
+
+### /src/main/java/com/rest/webservices/versioning/PersonV2.java
+
+```java
+package com.rest.webservices.versioning;
 
 public class PersonV2 {
 	private Name name;
@@ -1229,9 +1368,13 @@ public class PersonV2 {
 	}
 
 }
-________________________________________
-/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/versioning/PersonVersioningController.java
-package com.in28minutes.rest.webservices.restfulwebservices.versioning;
+```
+---
+
+### /src/main/java/com/rest/webservices/versioning/PersonVersioningController.java
+
+```java
+package com.rest.webservices.versioning;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -1280,8 +1423,12 @@ public class PersonVersioningController {
 	}
 
 }
-________________________________________
-/src/main/resources/application.properties
+```
+---
+
+### /src/main/resources/application.properties
+
+```properties
 logging.level.org.springframework = info
 #This is not really needed as this is the default after 2.0.0.RELEASE
 spring.jackson.serialization.write-dates-as-timestamps=false
@@ -1291,25 +1438,45 @@ spring.security.user.name=username
 spring.security.user.password=password
 spring.jpa.show-sql=true
 spring.h2.console.enabled=true
-________________________________________
-/src/main/resources/data.sql
+```
+---
+
+### /src/main/resources/data.sql
+
+```
 insert into user values(10001, sysdate(), 'AB');
 insert into user values(10002, sysdate(), 'Jill');
 insert into user values(10003, sysdate(), 'Jam');
 insert into post values(11001, 'My First Post', 10001);
 insert into post values(11002, 'My Second Post', 10001);
-________________________________________
-/src/main/resources/messages.properties
+```
+---
+
+### /src/main/resources/messages.properties
+
+```properties
 good.morning.message=Good Morning
-________________________________________
-/src/main/resources/messages_fr.properties
+```
+---
+
+### /src/main/resources/messages_fr.properties
+
+```properties
 good.morning.message=Bonjour
-________________________________________
-/src/main/resources/messages_nl.properties
+```
+---
+
+### /src/main/resources/messages_nl.properties
+
+```properties
 good.morning.message=Goede Morgen
-________________________________________
-/src/test/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplicationTests.java
-package com.in28minutes.rest.webservices.restfulwebservices;
+```
+---
+
+### /src/test/java/com/rest/webservices/RestfulWebServicesApplicationTests.java
+
+```java
+package com.rest.webservices;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -1325,4 +1492,5 @@ public class RestfulWebServicesApplicationTests {
 	}
 
 }
-
+```
+---
